@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+}
+
+nav .navLogo img {
+  width: auto;
+  height: 50px;
+  object-fit: scale-down;
+}
+
+nav .navLink {
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .navLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

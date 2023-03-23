@@ -1,0 +1,32 @@
+header {
+  background-image: url("../assets/images/jess-bailey-q10VITrVYUM-unsplash.jpg");
+  padding: 100px;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+}
+
+header h1 {
+  color: royalblue;
+  background-color: rgba(255, 255, 255, 0);
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+header button {
+  background-color: royalblue;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 50px;
+  font-size: 20px;
+  border: none;
+}
+
+header button:hover {
+  background-color: rgba(255, 255, 255, 0.021);
+  color: royalblue;
+  cursor: pointer;
+}
